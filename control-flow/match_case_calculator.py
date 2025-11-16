@@ -4,7 +4,7 @@ num2 = float(input("Enter the second number: "))
 
 
 # Ask user the operation to perform
-operation = input("Choose the operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /):")
 match operation:
     case "+":
         result = num1 + num2
