@@ -13,11 +13,12 @@ class BankAccount:
             
         # Insufficient funds
         else:
-            return "Insufficient funds."
+            return "Insufficient funds. "
         
     def display_balance(self):
         if self.account_balance >= 0:
             return f"Current Balance: ${self.account_balance}"
         else:
             return "Account balance is negative."
+
 
