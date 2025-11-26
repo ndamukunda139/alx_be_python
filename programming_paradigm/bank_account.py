@@ -11,7 +11,7 @@ class BankAccount:
             self.account_balance -= amount
             return f"Withdrew: ${self.account_balance}"
         else:
-            return "Insufficient funds"
+            return "Insufficient funds. "
         
     def display_balance(self):
         return f"Current Balance: ${self.account_balance}"
@@ -19,6 +19,7 @@ class BankAccount:
 
 
         
+
 
 
 
