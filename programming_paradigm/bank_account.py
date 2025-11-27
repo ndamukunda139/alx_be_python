@@ -1,3 +1,4 @@
+# BankAccount Class
 class BankAccount: 
     def __init__(self, account_balance):
         self.account_balance = account_balance
@@ -17,6 +18,7 @@ class BankAccount:
         return True
         
     def display_balance(self):
+        if self.account_balance >= 0:
             return f"Current Balance: ${self.account_balance:.2f}"
-        
-
+        else:
+            return "Account balance is negative."
