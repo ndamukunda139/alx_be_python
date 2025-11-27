@@ -17,7 +17,6 @@ class BankAccount:
         return True
         
     def display_balance(self):
-        if self.account_balance >= 0:
             return f"Current Balance: ${self.account_balance:.2f}"
-        else:
-            return "Account balance is negative."
+        
+
