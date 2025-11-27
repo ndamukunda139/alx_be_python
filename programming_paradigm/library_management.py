@@ -8,7 +8,7 @@ class Book:
     
 
 class Library: 
-    def __init__(self, __books):
+    def __init__(self):
         self.__books = {}  # Private attribute   
 
     def add_book(self, book):
@@ -40,3 +40,4 @@ class Library:
         available_books = [title for title, book in self.__books.items() if not book._Book__is_checked_out]
         return available_books
     
+
