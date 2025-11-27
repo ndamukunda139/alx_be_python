@@ -1,9 +1,9 @@
 # book class
 class Book:
-    def __init__(self, title, author, __is_checked_out):
+    def __init__(self, title, author):
         self.title = title
         self.author = author
-        self.__is_checked_out = __is_checked_out  # Private attribute
+        self.__is_checked_out = False  # Private attribute
 
     
 
@@ -40,4 +40,5 @@ class Library:
         available_books = [title for title, book in self.__books.items() if not book._Book__is_checked_out]
         return available_books
     
+
 
